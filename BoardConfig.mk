@@ -135,6 +135,12 @@ TW_INCLUDE_LIBRESETPROP := true
 TW_EXTRA_LANGUAGES := false
 TW_NO_FASTBOOT_BOOT := true
 
+# PBRP specific build flags
+PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
+PB_DISABLE_DEFAULT_DM_VERITY := true
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
+MAINTAINER := "Aghisna @RooGhz720"
+
 #brightness
 TW_MAX_BRIGHTNESS := 2047
 TW_DEFAULT_BRIGHTNESS := 1200
